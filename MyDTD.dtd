@@ -1,0 +1,32 @@
+<!DOCTYPE sweetshop
+[
+
+<!ELEMENT sweetshop (title, sweet, snacks)>
+
+<!ELEMENT sweet (burfi1, burfi2, priceRange, ingredientsNumber, ingredients, workersRequired, dailyRequirement)>
+
+<!ELEMENT snacks (type1, type2, priceRange, ingredientsNumber, ingredients, workersRequired, dailyRequirement)>
+
+<!ELEMENT title (#PC DATA)>
+
+<!ELEMENT burfi1 (#PC DATA)>
+<!ELEMENT burfi2 (#PC DATA)>
+<!ELEMENT origin (#PC DATA)>
+<!ELEMENT type1 (#PC DATA)>
+<!ELEMENT type2 (#PC DATA)>
+
+<!ELEMENT priceRange (#PCDATA)>
+<!ELEMENT ingredientsNumber (#PCDATA)>
+<!ELEMENT ingredients (#PCDATA)>
+<!ELEMENT workersRequired (#PCDATA)>
+<!ELEMENT dailyRequirement (#PCDATA)>
+
+<!ATTLIST kind Milk_Sweets>
+<!ATTLIST kind Dryfruit_Sweets>
+<!ATTLIST kind Regular>
+<!ATTLIST kind Special>
+<!ATTLIST kind Festive>
+<!ATTLIST kind special>
+<!ATTLIST kind Holige>
+<!ATTLIST kind Tamilnadu>
+]>

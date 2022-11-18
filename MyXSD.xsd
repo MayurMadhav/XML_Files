@@ -1,0 +1,43 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sweetshop" type="sweetshopType"/>
+  <xs:complexType name="sweetType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="burfi1" minOccurs="0"/>
+      <xs:element type="xs:string" name="burfi2" minOccurs="0"/>
+      <xs:element type="xs:string" name="burfi3" minOccurs="0"/>
+      <xs:element type="xs:string" name="burfi4" minOccurs="0"/>
+      <xs:element type="xs:string" name="burfi5" minOccurs="0"/>
+      <xs:element type="xs:string" name="holigeType1" minOccurs="0"/>
+      <xs:element type="xs:string" name="holigeType2" minOccurs="0"/>
+      <xs:element type="xs:string" name="holigeType3" minOccurs="0"/>
+      <xs:element type="xs:string" name="holigeType4" minOccurs="0"/>
+      <xs:element type="xs:string" name="origin" minOccurs="0"/>
+      <xs:element type="xs:string" name="type1" minOccurs="0"/>
+      <xs:element type="xs:string" name="type2" minOccurs="0"/>
+      <xs:element type="xs:string" name="priceRange"/>
+      <xs:element type="xs:string" name="ingredientsNumber"/>
+      <xs:element type="xs:string" name="ingredients"/>
+      <xs:element type="xs:string" name="workersRequired"/>
+      <xs:element type="xs:string" name="dailyRequirement"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="kind" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="snacksType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="type1"/>
+      <xs:element type="xs:string" name="type2"/>
+      <xs:element type="xs:string" name="priceRange"/>
+      <xs:element type="xs:string" name="ingredientsNumber"/>
+      <xs:element type="xs:string" name="ingredients"/>
+      <xs:element type="xs:string" name="workersRequired"/>
+      <xs:element type="xs:string" name="dailyRequirement"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="kind"/>
+  </xs:complexType>
+  <xs:complexType name="sweetshopType">
+    <xs:sequence>
+      <xs:element type="sweetType" name="sweet" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="snacksType" name="snacks"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

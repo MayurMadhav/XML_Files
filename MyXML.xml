@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sweetshop SYSTEM "MyDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="MyXSL.xsl" ?>
+<sweetshop>
+    <title> Our Specials..</title>
+    <sweet kind="Milk_Sweets">
+        <burfi1>Milk Burfi</burfi1>
+        <burfi2>Kalakand Burfi</burfi2>
+        <priceRange>600</priceRange>
+        <ingredientsNumber>4 Raw Materials</ingredientsNumber>
+        <ingredients> Condensed Milk, Sugar, Cornfloor, Vanilla essense </ingredients>
+        <workersRequired>5 Persons</workersRequired>
+        <dailyRequirement> 5KG </dailyRequirement>
+    </sweet>
+    
+    <sweet kind="Dryfruit_Sweets">
+        <burfi1>Karadantu</burfi1>
+        <burfi2>Kaju Burfi</burfi2>
+        <priceRange>1200</priceRange>
+        <ingredientsNumber> 5 Raw Materials </ingredientsNumber>
+        <ingredients> Sugar Syrup, Cashew, Anjur, Raisins, Ghee </ingredients>
+        <workersRequired>5 Persons</workersRequired>
+        <dailyRequirement> 7KG </dailyRequirement>
+
+    </sweet>
+    
+    <sweet kind="Regular">
+        <burfi1>Motichoor Ladu</burfi1>
+        <burfi2>Boondi Ladu</burfi2>
+        <priceRange>500</priceRange>
+        <ingredientsNumber>7 Raw Materials</ingredientsNumber>
+        <ingredients> Besan Gram Flour, Rice FLour, Sugar, Ghee, Saffron Color, Cardamon Powder, Baking Soda </ingredients>
+        <workersRequired>5-7 Persons</workersRequired>
+        <dailyRequirement> 4KG </dailyRequirement>
+        
+        
+    </sweet>
+    
+    <sweet kind="Special">
+        <burfi1>DryFruit Roll</burfi1>
+        <burfi2>Kesar Burfi</burfi2>
+        <priceRange>900</priceRange>
+        <ingredientsNumber>5 Raw Materials</ingredientsNumber>
+        <ingredients> Milk, Lemon Juice, Fresh Cream, Cardamon Powder, Cashew/Almonds, Yogart/Curd</ingredients>
+        <workersRequired>5-7 Persons</workersRequired>
+        <dailyRequirement> 5KG </dailyRequirement>
+        
+    </sweet>
+    
+    <sweet kind="Festive">
+        <burfi1>Rasmalai</burfi1>
+        <burfi2>Rasgulla</burfi2>
+        <origin>West Bengal</origin>
+        <priceRange>900</priceRange>
+        <ingredientsNumber>5 Raw Materials</ingredientsNumber>
+        <ingredients> MIlkMaid, Nourish Milk, Panner, Safforn, Cardamom Powder, Pistachios, Sugar</ingredients>
+        <workersRequired>5-7 Persons</workersRequired>
+        <dailyRequirement> NOT Required/ ONLY on Orders </dailyRequirement>
+    </sweet>
+    
+    <sweet kind="holige">
+        <burfi1>Coconut</burfi1>
+        <burfi2>Dal</burfi2>
+        <origin>Karnataka</origin>
+        <priceRange>20</priceRange>
+        <ingredientsNumber>6 Raw Materials</ingredientsNumber>
+        <ingredients> Coconut, Dal, Carrot, Anjur, Turmeric Powder, Cooking Oil, Jaggery, Ghee, Cardamon Powder</ingredients>
+        <workersRequired>4 Persons</workersRequired>
+        <dailyRequirement> ONLY on Orders </dailyRequirement>
+    </sweet>
+    
+    <sweet kind="Tamilnadu">
+        <burfi1>Halwa</burfi1>
+        <burfi1>Chandrakala</burfi1>
+        <priceRange>700</priceRange>
+        <ingredientsNumber>6 Raw Materials</ingredientsNumber>
+        <ingredients> Wheat Milk, Ghee, Saffron, Sugar, Pista/Almonds,Cashew  </ingredients>
+        <workersRequired>4 Persons</workersRequired>
+        <dailyRequirement> ONLY on Orders </dailyRequirement>
+    </sweet>
+    
+    <snacks>
+        <type1>Samosa</type1>
+        <type2>Kachori</type2>
+        <priceRange>20</priceRange>
+        <ingredientsNumber>10 Raw Materials</ingredientsNumber>
+        <ingredients> All Purpose Flour, Cumin Seeds, Crushed Ginger, Corinder Powder, Garam Masala Powder, Salt, Potato, Kasoori Methi Leaves</ingredients>
+        <workersRequired>3 Persons</workersRequired>
+        <dailyRequirement> 40 Pieces </dailyRequirement>
+    </snacks>
+    
+</sweetshop>
